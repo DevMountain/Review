@@ -14,6 +14,12 @@
 		702F4F021B718DBE00F12DAD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 702F4F011B718DBE00F12DAD /* Images.xcassets */; };
 		702F4F051B718DBE00F12DAD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 702F4F031B718DBE00F12DAD /* LaunchScreen.xib */; };
 		702F4F111B718DBE00F12DAD /* ReviewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F4F101B718DBE00F12DAD /* ReviewTests.m */; };
+		702F4F1C1B71945400F12DAD /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F4F1B1B71945400F12DAD /* LoginViewController.m */; };
+		702F4F1F1B719A9E00F12DAD /* PeopleListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F4F1E1B719A9E00F12DAD /* PeopleListTableViewController.m */; };
+		702F4F221B719AFE00F12DAD /* PeopleListDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F4F211B719AFE00F12DAD /* PeopleListDataSource.m */; };
+		702F4F251B719E0600F12DAD /* PeopleDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F4F241B719E0600F12DAD /* PeopleDetailViewController.m */; };
+		702F4F281B71AC5000F12DAD /* PopoverExampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F4F271B71AC5000F12DAD /* PopoverExampleViewController.m */; };
+		702F4F2B1B71AC6500F12DAD /* PopoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702F4F2A1B71AC6500F12DAD /* PopoverTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,18 @@
 		702F4F0A1B718DBE00F12DAD /* ReviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		702F4F0F1B718DBE00F12DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		702F4F101B718DBE00F12DAD /* ReviewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReviewTests.m; sourceTree = "<group>"; };
+		702F4F1A1B71945400F12DAD /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		702F4F1B1B71945400F12DAD /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		702F4F1D1B719A9E00F12DAD /* PeopleListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleListTableViewController.h; sourceTree = "<group>"; };
+		702F4F1E1B719A9E00F12DAD /* PeopleListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleListTableViewController.m; sourceTree = "<group>"; };
+		702F4F201B719AFE00F12DAD /* PeopleListDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleListDataSource.h; sourceTree = "<group>"; };
+		702F4F211B719AFE00F12DAD /* PeopleListDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleListDataSource.m; sourceTree = "<group>"; };
+		702F4F231B719E0600F12DAD /* PeopleDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PeopleDetailViewController.h; sourceTree = "<group>"; };
+		702F4F241B719E0600F12DAD /* PeopleDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PeopleDetailViewController.m; sourceTree = "<group>"; };
+		702F4F261B71AC5000F12DAD /* PopoverExampleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverExampleViewController.h; sourceTree = "<group>"; };
+		702F4F271B71AC5000F12DAD /* PopoverExampleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverExampleViewController.m; sourceTree = "<group>"; };
+		702F4F291B71AC6500F12DAD /* PopoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PopoverTableViewController.h; sourceTree = "<group>"; };
+		702F4F2A1B71AC6500F12DAD /* PopoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PopoverTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +104,18 @@
 				702F4EFB1B718DBE00F12DAD /* ViewController.h */,
 				702F4EFC1B718DBE00F12DAD /* ViewController.m */,
 				702F4EFE1B718DBE00F12DAD /* Main.storyboard */,
+				702F4F1A1B71945400F12DAD /* LoginViewController.h */,
+				702F4F1B1B71945400F12DAD /* LoginViewController.m */,
+				702F4F1D1B719A9E00F12DAD /* PeopleListTableViewController.h */,
+				702F4F1E1B719A9E00F12DAD /* PeopleListTableViewController.m */,
+				702F4F201B719AFE00F12DAD /* PeopleListDataSource.h */,
+				702F4F211B719AFE00F12DAD /* PeopleListDataSource.m */,
+				702F4F231B719E0600F12DAD /* PeopleDetailViewController.h */,
+				702F4F241B719E0600F12DAD /* PeopleDetailViewController.m */,
+				702F4F261B71AC5000F12DAD /* PopoverExampleViewController.h */,
+				702F4F271B71AC5000F12DAD /* PopoverExampleViewController.m */,
+				702F4F291B71AC6500F12DAD /* PopoverTableViewController.h */,
+				702F4F2A1B71AC6500F12DAD /* PopoverTableViewController.m */,
 				702F4F011B718DBE00F12DAD /* Images.xcassets */,
 				702F4F031B718DBE00F12DAD /* LaunchScreen.xib */,
 				702F4EF41B718DBE00F12DAD /* Supporting Files */,
@@ -219,9 +249,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				702F4F251B719E0600F12DAD /* PeopleDetailViewController.m in Sources */,
+				702F4F1F1B719A9E00F12DAD /* PeopleListTableViewController.m in Sources */,
+				702F4F1C1B71945400F12DAD /* LoginViewController.m in Sources */,
 				702F4EFD1B718DBE00F12DAD /* ViewController.m in Sources */,
+				702F4F221B719AFE00F12DAD /* PeopleListDataSource.m in Sources */,
 				702F4EFA1B718DBE00F12DAD /* AppDelegate.m in Sources */,
 				702F4EF71B718DBE00F12DAD /* main.m in Sources */,
+				702F4F2B1B71AC6500F12DAD /* PopoverTableViewController.m in Sources */,
+				702F4F281B71AC5000F12DAD /* PopoverExampleViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
